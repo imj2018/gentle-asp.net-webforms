@@ -32,5 +32,21 @@ namespace Conditionals
                 ImgFood.ImageUrl = "images/peanutbutter.png";
             }
         }
+
+        protected void BtnLanguages_Click(object sender, EventArgs e)
+        {
+
+            //  can use a loop instead of multiple if statements
+            //  
+            foreach (ListItem item in CheckBoxList1.Items)
+            {
+                if (item.Selected == true)
+                {
+                    LblResult.Text += " You picked " + item.Value + "<br />";
+                }
+            }
+
+
+        }
     }
 }

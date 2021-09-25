@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Conditionals {
-    
-    
-    public partial class Default {
-        
+namespace Conditionals
+{
+
+
+    public partial class Default
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace Conditionals {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// RdoPizza control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace Conditionals {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton RdoPizza;
-        
+
         /// <summary>
         /// RdoSalad control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace Conditionals {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton RdoSalad;
-        
+
         /// <summary>
         /// RdoPeanutButter control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace Conditionals {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton RdoPeanutButter;
-        
+
         /// <summary>
         /// BtnResult control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace Conditionals {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnResult;
-        
+
         /// <summary>
         /// LblResult control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace Conditionals {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblResult;
-        
+
         /// <summary>
         /// ImgFood control.
         /// </summary>
@@ -74,5 +76,23 @@ namespace Conditionals {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image ImgFood;
+
+        /// <summary>
+        /// CheckBoxList1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList1;
+
+        /// <summary>
+        /// BtnLanguages control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnLanguages;
     }
 }

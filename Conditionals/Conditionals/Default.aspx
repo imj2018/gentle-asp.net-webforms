@@ -27,6 +27,19 @@
         <br />
         <asp:Image ID="ImgFood" runat="server" Height="100px" Width="100px" />
     
+        <br />
+        <br />
+        What&#39;s your favourite programming language<br />
+        <asp:CheckBoxList ID="CheckBoxList1" runat="server" AutoPostBack="True">
+            <asp:ListItem>C++</asp:ListItem>
+            <asp:ListItem>Java</asp:ListItem>
+            <asp:ListItem>C#</asp:ListItem>
+            <asp:ListItem>Python</asp:ListItem>
+        </asp:CheckBoxList>
+        <br />
+        <asp:Button ID="BtnLanguages" runat="server" OnClick="BtnLanguages_Click" Text="Favourite Languages" />
+        <br />
+    
     </div>
     </form>
 </body>
