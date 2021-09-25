@@ -11,16 +11,16 @@
         <div>
             The Chiarelli Pizzeria<br />
             <br />
-            <asp:RadioButton ID="RdoBaby" runat="server" Text="Baby $10" />
+            <asp:RadioButton ID="RdoBaby" runat="server" GroupName="size" Text="Baby $10" />
             <br />
-            <asp:RadioButton ID="RdoMama" runat="server" Text="Mama $13" />
+            <asp:RadioButton ID="RdoMama" runat="server" GroupName="size" Text="Mama $13" />
             <br />
-            <asp:RadioButton ID="RdoPapa" runat="server" Text="Papa $16" />
+            <asp:RadioButton ID="RdoPapa" runat="server" GroupName="size" Text="Papa $16" />
             <br />
             <br />
-            <asp:RadioButton ID="RdoThinCrust" runat="server" Text="Thin Crust" />
+            <asp:RadioButton ID="RdoThinCrust" runat="server" GroupName="crust" Text="Thin Crust" />
             <br />
-            <asp:RadioButton ID="RdoDeepDish" runat="server" Text="Deep Dish (+$2.00)" />
+            <asp:RadioButton ID="RdoDeepDish" runat="server" GroupName="crust" Text="Deep Dish (+$2.00)" />
             <br />
             <br />
             <asp:CheckBox ID="ChkPepperoni" runat="server" Text="Pepperoni $1.50" />
@@ -37,11 +37,10 @@
             Special Deal: Save 2.00 when you add pepperoni, green peppers and anchovies OR <br />
             pepperoni, red peppers and onions to your pizza<br />
             <br />
-            <asp:Button ID="BtnPurchase" runat="server" Text="Purchase" />
+            <asp:Button ID="BtnPurchase" runat="server" OnClick="BtnPurchase_Click" Text="Purchase" />
             <br />
             <br />
-            Total:
-            <asp:Label ID="LblTotal" runat="server"></asp:Label>
+            Total: <asp:Label ID="LblTotal" runat="server"></asp:Label>
             <br />
             <br />
         </div>

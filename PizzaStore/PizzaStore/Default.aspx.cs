@@ -14,5 +14,67 @@ namespace PizzaStore
 
         }
 
+        protected void BtnPurchase_Click(object sender, EventArgs e)
+        {
+            double total = 0;
+            double size = 0;
+            double type = 0;
+            double toppings = 0;
+
+            if (RdoBaby.Checked == true)
+            {
+                size += 10.00;
+            }
+            else if (RdoMama.Checked == true)
+            {
+                size += 13.00;
+            }
+            else if (RdoPapa.Checked == true)
+            {
+                size += 16.00;
+            }
+
+            if (RdoThinCrust.Checked == true)
+            {
+                type += 0;
+            }
+            else if (RdoDeepDish.Checked == true)
+            {
+                type += 2.00;
+            }
+
+            if (ChkPepperoni.Checked == true)
+            {
+                toppings += 1.50;
+            }
+            if (ChkOnions.Checked == true)
+            {
+                toppings += 0.75;
+            }
+            if (ChkGreenPeppers.Checked == true)
+            {
+                toppings += 0.50;
+            }
+            if (ChkRedPeppers.Checked == true)
+            {
+                toppings += 0.75;
+            }
+            if (ChkAnchovies.Checked == true)
+            {
+                toppings += 2.00;
+            }
+
+            total = size + type + toppings;
+
+            if (ChkPepperoni.Checked == true && ChkGreenPeppers.Checked == true && ChkAnchovies.Checked == true
+                || ChkPepperoni.Checked == true && ChkRedPeppers.Checked == true && ChkOnions.Checked == true )
+            {
+                total -= 2.00;
+            }
+
+            LblTotal.Text = total.ToString("c");
+
+
+        }
     }
 }
