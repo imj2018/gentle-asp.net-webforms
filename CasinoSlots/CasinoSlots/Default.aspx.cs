@@ -9,6 +9,8 @@ namespace CasinoSlots
 {
     public partial class Default : System.Web.UI.Page
     {
+        // test
+
         string[] images = new string[] { "cherry", "shamrock", "horseshoe" };
 
         Random random = new Random();
