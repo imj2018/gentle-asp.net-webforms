@@ -1,0 +1,14 @@
+﻿body {
+    background-color: #000000;
+    color:yellow;
+}
+h1 {
+    color: #008000;
+}
+h2 {
+    color: #FF0000;
+    border: thick double #FFFF00;
+}
+.MyClass {
+    border: thin dotted #800080;
+}
