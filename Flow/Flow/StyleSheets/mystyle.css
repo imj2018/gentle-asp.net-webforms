@@ -1,0 +1,33 @@
+﻿.Header
+{
+    position:absolute;
+    top:10px;
+    left:10px;
+    height:60px;
+    background-color:pink;
+}
+
+.LeftPanel
+{
+    position:absolute;
+    top:70px;
+    left:10px;
+    width:160px;
+    background-color:yellow;
+}
+.RightPanel {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    width: 160px;
+    background-color: yellow;
+}
+.CentrePanel {
+    position: absolute;
+    top: 70px;
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: green;
+    left: 10px;
+    width: 939px;
+}
