@@ -3,3 +3,4 @@
 ################################################################################
 
 /CRUD/CRUD/App_Data/Customers.mdf
+/CRUD/CRUD/App_Data/Customers_log.ldf
