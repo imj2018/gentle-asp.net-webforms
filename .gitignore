@@ -4,3 +4,5 @@
 
 /CRUD/CRUD/App_Data/Customers.mdf
 /CRUD/CRUD/App_Data/Customers_log.ldf
+/MyWeatherSite/MyWeatherSite/App_Data/WeaterHistory.mdf
+/MyWeatherSite/MyWeatherSite/App_Data/WeaterHistory_log.ldf
